@@ -1,0 +1,122 @@
+.header {
+  background-image: url('/images/desktop/image-hero.jpg');
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    //padding: 64px 24px;
+    padding: 15px;
+
+    .nav-items {
+      display: flex;
+
+      .nav-links {
+        padding: 15px 20px;
+        color: $white;
+
+        &:hover {
+          border-bottom: 2px solid;
+        }
+      }
+    }
+  }
+
+  .box {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    border: 4px solid;
+    color: $white;
+    font-size: 65px;
+    width: 650px;
+    height: 280px;
+    padding: 40px 48px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+  }
+}
+
+.hamburger,
+.close {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-image: url('/images/mobile/image-hero.jpg');
+
+    .box {
+      font-size: 50px;
+      width: 660px;
+      height: 400px;
+      top: 35%;
+      left: 2.5%;
+      font-size: 80px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      //
+      //padding-top: 75px;
+
+      .logo {
+        z-index: 3;
+        margin-left: -400px;
+        margin-top: 5px;
+      }
+
+      .nav-items {
+        transform: translateX(-100%);
+        transition: 0.5s ease-in-out;
+        background: $black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 15px;
+        z-index: 2;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        text-transform: uppercase;
+        font-size: 2rem;
+
+        .nav-links:hover {
+          color: aqua;
+          border: 0;
+        }
+      }
+      .open {
+        transform: translateX(0);
+      }
+    }
+    .hamburger {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      z-index: 1;
+      cursor: pointer;
+      display: block;
+    }
+
+    .close {
+      display: block;
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      z-index: 3;
+      cursor: pointer;
+    }
+  }
+}
