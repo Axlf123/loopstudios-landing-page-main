@@ -44,7 +44,7 @@
 
     .image {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-deep-earth.jpg');
+        url('../../images/desktop/image-deep-earth.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -55,7 +55,7 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-deep-earth.jpg');
+          url('../../images/desktop/image-deep-earth.jpg');
         .title {
           color: $black;
         }
@@ -63,7 +63,7 @@
     }
     .image:nth-child(2) {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-night-arcade.jpg');
+        url('../../images/desktop/image-night-arcade.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -73,12 +73,12 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-night-arcade.jpg');
+          url('../../images/desktop/image-night-arcade.jpg');
       }
     }
     .image:nth-child(3) {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-soccer-team.jpg');
+        url('../../images/desktop/image-soccer-team.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -88,12 +88,12 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-soccer-team.jpg');
+          url('../../images/desktop/image-soccer-team.jpg');
       }
     }
     .image:nth-child(4) {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-grid.jpg');
+        url('../../images/desktop/image-grid.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -103,12 +103,12 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-grid.jpg');
+          url('../../images/desktop/image-grid.jpg');
       }
     }
     .image:nth-child(5) {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-from-above.jpg');
+        url('../../images/desktop/image-from-above.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -118,12 +118,12 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-from-above.jpg');
+          url('../../images/desktop/image-from-above.jpg');
       }
     }
     .image:nth-child(6) {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-pocket-borealis.jpg');
+        url('../../images/desktop/image-pocket-borealis.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -133,12 +133,12 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-pocket-borealis.jpg');
+          url('../../images/desktop/image-pocket-borealis.jpg');
       }
     }
     .image:nth-child(7) {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-curiosity.jpg');
+        url('../../images/desktop/image-curiosity.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -148,12 +148,12 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-curiosity.jpg');
+          url('../../images/desktop/image-curiosity.jpg');
       }
     }
     .image:nth-child(8) {
       background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-        url('/images/desktop/image-fisheye.jpg');
+        url('../../images/desktop/image-fisheye.jpg');
       height: 450px;
       width: 256px;
       position: relative;
@@ -163,7 +163,7 @@
             rgba(240, 240, 240, 0.5),
             rgba(240, 240, 240, 0.5)
           ),
-          url('/images/desktop/image-fisheye.jpg');
+          url('../../images/desktop/image-fisheye.jpg');
       }
     }
     .title {
@@ -195,10 +195,8 @@
     }
 
     a {
-      //grid-column: 3/5;
       grid-column: 2/6;
       grid-row: 6/7;
-      //grid-row: 5/-1;
       margin: 15% 0 25% 10%;
       background: $white;
       color: $black;
@@ -223,7 +221,7 @@
       }
 
       .image {
-        background-image: url('/images/mobile/image-deep-earth.jpg');
+        background-image: url('../../images/mobile/image-deep-earth.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -233,11 +231,11 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-deep-earth.jpg');
+            url('../../images/mobile/image-deep-earth.jpg');
         }
       }
       .image:nth-child(2) {
-        background-image: url('/images/mobile/image-night-arcade.jpg');
+        background-image: url('../../images/mobile/image-night-arcade.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -247,11 +245,11 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-night-arcade.jpg');
+            url('../../images/mobile/image-night-arcade.jpg');
         }
       }
       .image:nth-child(3) {
-        background-image: url('/images/mobile/image-soccer-team.jpg');
+        background-image: url('../../images/mobile/image-soccer-team.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -261,11 +259,11 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-soccer-team.jpg');
+            url('../../images/mobile/image-soccer-team.jpg');
         }
       }
       .image:nth-child(4) {
-        background-image: url('/images/mobile/image-grid.jpg');
+        background-image: url('../../images/mobile/image-grid.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -275,11 +273,11 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-grid.jpg');
+            url('../../images/mobile/image-grid.jpg');
         }
       }
       .image:nth-child(5) {
-        background-image: url('/images/mobile/image-from-above.jpg');
+        background-image: url('../../images/mobile/image-from-above.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -289,11 +287,11 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-from-above.jpg');
+            url('../../images/mobile/image-from-above.jpg');
         }
       }
       .image:nth-child(6) {
-        background-image: url('/images/mobile/image-pocket-borealis.jpg');
+        background-image: url('../../images/mobile/image-pocket-borealis.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -303,11 +301,11 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-pocket-borealis.jpg');
+            url('../../images/mobile/image-pocket-borealis.jpg');
         }
       }
       .image:nth-child(7) {
-        background-image: url('/images/mobile/image-curiosity.jpg');
+        background-image: url('../../images/mobile/image-curiosity.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -317,11 +315,11 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-curiosity.jpg');
+            url('../../images/mobile/image-curiosity.jpg');
         }
       }
       .image:nth-child(8) {
-        background-image: url('/images/mobile/image-fisheye.jpg');
+        background-image: url('../../images/mobile/image-fisheye.jpg');
         height: 240px;
         width: 654px;
         background-size: cover;
@@ -331,7 +329,7 @@
               rgba(240, 240, 240, 0.5),
               rgba(240, 240, 240, 0.5)
             ),
-            url('/images/mobile/image-fisheye.jpg');
+            url('../../images/mobile/image-fisheye.jpg');
         }
       }
     }
