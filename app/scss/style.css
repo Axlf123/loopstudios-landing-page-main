@@ -49,7 +49,7 @@ body a:active {
 }
 
 .header {
-  background-image: url("/images/desktop/image-hero.jpg");
+  background-image: url("../../images/desktop/image-hero.jpg");
   height: 100vh;
   background-size: cover;
   width: 100%;
@@ -92,7 +92,7 @@ body a:active {
 
 @media (max-width: 768px) {
   .header {
-    background-image: url("/images/mobile/image-hero.jpg");
+    background-image: url("../../images/mobile/image-hero.jpg");
   }
   .header .box {
     font-size: 50px;
@@ -255,80 +255,80 @@ body a:active {
   gap: 25px;
 }
 .creation .gallery .image {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-deep-earth.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-deep-earth.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:hover {
   transition: all 5s ease-in-out;
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-deep-earth.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-deep-earth.jpg");
 }
 .creation .gallery .image:hover .title {
   color: hsl(0, 0%, 0%);
 }
 .creation .gallery .image:nth-child(2) {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-night-arcade.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-night-arcade.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:nth-child(2):hover {
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-night-arcade.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-night-arcade.jpg");
 }
 .creation .gallery .image:nth-child(3) {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-soccer-team.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-soccer-team.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:nth-child(3):hover {
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-soccer-team.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-soccer-team.jpg");
 }
 .creation .gallery .image:nth-child(4) {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-grid.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-grid.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:nth-child(4):hover {
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-grid.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-grid.jpg");
 }
 .creation .gallery .image:nth-child(5) {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-from-above.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-from-above.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:nth-child(5):hover {
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-from-above.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-from-above.jpg");
 }
 .creation .gallery .image:nth-child(6) {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-pocket-borealis.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-pocket-borealis.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:nth-child(6):hover {
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-pocket-borealis.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-pocket-borealis.jpg");
 }
 .creation .gallery .image:nth-child(7) {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-curiosity.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-curiosity.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:nth-child(7):hover {
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-curiosity.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-curiosity.jpg");
 }
 .creation .gallery .image:nth-child(8) {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-fisheye.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("../../images/desktop/image-fisheye.jpg");
   height: 450px;
   width: 256px;
   position: relative;
 }
 .creation .gallery .image:nth-child(8):hover {
-  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/desktop/image-fisheye.jpg");
+  background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/desktop/image-fisheye.jpg");
 }
 .creation .gallery .title {
   position: absolute;
@@ -377,76 +377,76 @@ body a:active {
     font-weight: normal;
   }
   .creation .gallery .image {
-    background-image: url("/images/mobile/image-deep-earth.jpg");
+    background-image: url("../../images/mobile/image-deep-earth.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-deep-earth.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-deep-earth.jpg");
   }
   .creation .gallery .image:nth-child(2) {
-    background-image: url("/images/mobile/image-night-arcade.jpg");
+    background-image: url("../../images/mobile/image-night-arcade.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:nth-child(2):hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-night-arcade.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-night-arcade.jpg");
   }
   .creation .gallery .image:nth-child(3) {
-    background-image: url("/images/mobile/image-soccer-team.jpg");
+    background-image: url("../../images/mobile/image-soccer-team.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:nth-child(3):hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-soccer-team.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-soccer-team.jpg");
   }
   .creation .gallery .image:nth-child(4) {
-    background-image: url("/images/mobile/image-grid.jpg");
+    background-image: url("../../images/mobile/image-grid.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:nth-child(4):hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-grid.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-grid.jpg");
   }
   .creation .gallery .image:nth-child(5) {
-    background-image: url("/images/mobile/image-from-above.jpg");
+    background-image: url("../../images/mobile/image-from-above.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:nth-child(5):hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-from-above.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-from-above.jpg");
   }
   .creation .gallery .image:nth-child(6) {
-    background-image: url("/images/mobile/image-pocket-borealis.jpg");
+    background-image: url("../../images/mobile/image-pocket-borealis.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:nth-child(6):hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-pocket-borealis.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-pocket-borealis.jpg");
   }
   .creation .gallery .image:nth-child(7) {
-    background-image: url("/images/mobile/image-curiosity.jpg");
+    background-image: url("../../images/mobile/image-curiosity.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:nth-child(7):hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-curiosity.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-curiosity.jpg");
   }
   .creation .gallery .image:nth-child(8) {
-    background-image: url("/images/mobile/image-fisheye.jpg");
+    background-image: url("../../images/mobile/image-fisheye.jpg");
     height: 240px;
     width: 654px;
     background-size: cover;
   }
   .creation .gallery .image:nth-child(8):hover {
-    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("/images/mobile/image-fisheye.jpg");
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.5)), url("../../images/mobile/image-fisheye.jpg");
   }
 }
 .footer {
